@@ -26,6 +26,9 @@ body {
 .margin-top {
   margin-top: 25px;
 }
+.margin-bottom {
+  margin-bottom: 25px;
+}
 
 .margin-sides {
   margin: 8%;
@@ -80,8 +83,10 @@ h4 {
 }
 
 /*button*/
-button {
+a {
   background-color: #ed1848;
+  margin-top: 10px;
+  text-decoration: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: #ffff;
@@ -91,13 +96,16 @@ button {
   padding: 6px 20px;
 }
 
-button:hover {
+a:hover {
   background-color: #6C5BA7;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   border: #6C5BA7;
 }
 
 .link {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 25px;
   background: linear-gradient(to bottom, rgba(11,187,254,.15) 0%,rgba(125,85,155,.15) 45%,rgba(237,24,72,.15) 100%);
   font-size: 1.6rem;
   font-weight: bold;
