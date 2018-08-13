@@ -143,6 +143,14 @@ a:hover {
   .grid-container-2 {
     display: block;
   }
+
+  .grid-container-3 {
+    display: block;
+  }
+
+  .grid-container-3-rev {
+    display: block;
+  }
   .center {
     width: 90%;
   }
