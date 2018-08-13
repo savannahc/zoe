@@ -1,0 +1,135 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+  color: #333333;
+}
+
+/*grid*/
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+/*margin*/
+.margin-top {
+  margin-top: 25px;
+}
+
+.margin-sides {
+  margin: 8%;
+}
+
+
+/*padding*/
+.padding-top {
+  padding-top: 35%;
+}
+
+.padding-bottom {
+  margin-bottom: 35%;
+}
+
+
+.padding-left {
+  padding-left: 30px;
+}
+
+/*center text*/
+.center {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*typography*/
+h1 {
+  font-family: 'futura', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 40px;
+}
+
+h4 {
+  font-family: 'futura', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+/*button*/
+button {
+  background-color: #ed1848;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #ffff;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 6px 20px;
+}
+
+button:hover {
+  background-color: #6C5BA7;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  border: #6C5BA7;
+}
+
+.link {
+  background: linear-gradient(to bottom, rgba(11,187,254,.15) 0%,rgba(125,85,155,.15) 45%,rgba(237,24,72,.15) 100%);
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  color: black;
+  border: none;
+  border-radius: 0;
+}
+
+.link:hover {
+  background: linear-gradient(to bottom, rgba(11,187,254,1) 0%,rgba(125,85,155,1) 45%,rgba(237,24,72,1) 100%);
+}
+
+@media only screen and (max-width: 800px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .grid-container-2 {
+    display: block;
+  }
+  .center {
+    width: 90%;
+  }
+
+  .padding-top {
+    padding-top: 10px;
+  }
+
+  .feature {
+    margin-top: 150px;
+  }
+}
