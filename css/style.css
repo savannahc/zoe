@@ -36,8 +36,17 @@ body {
 .margin-top {
   margin-top: 25px;
 }
+
+.logo {
+  margin-top: 75px;
+}
+
 .margin-bottom {
   margin-bottom: 25px;
+}
+
+.margin-left {
+  margin-left: 75px;
 }
 
 .margin-sides {
@@ -73,27 +82,32 @@ body {
 /*typography*/
 h1 {
   font-family: 'futura', sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 3.8rem;
 }
 
 h2 {
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 h3 {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: bold;
   font-style: italic;
-  line-height: 40px;
+  line-height: 2.3rem;
 }
 
 h4 {
   font-family: 'futura', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 1.8rem;
+}
+
+p {
+  line-height: 1.45rem;
 }
 
 /*button*/
@@ -114,6 +128,7 @@ a:hover {
   background-color: #6C5BA7;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   border: #6C5BA7;
+  transition-timing-function: linear;
 }
 
 .link {
@@ -132,6 +147,11 @@ a:hover {
 
 .link:hover {
   background: linear-gradient(to bottom, rgba(11,187,254,1) 0%,rgba(125,85,155,1) 45%,rgba(237,24,72,1) 100%);
+}
+
+/*gradients*/
+.gradient1{
+background-image: radial-gradient(closest-side at 60% 55%, #75CEE3, #8199C4, #6C5BA7);
 }
 
 @media only screen and (max-width: 800px) {
@@ -162,4 +182,19 @@ a:hover {
   .feature {
     margin-top: 150px;
   }
+
+  .margin-left {
+    margin-left: 0px;
+  }
+
+  .logo {
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 45px;
+  }
+
+  .testimonial {
+    width: 65%;
+  }
+
 }
